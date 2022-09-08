@@ -46,7 +46,7 @@ describe('OrbitCountsComponent', () => {
 	fixture.detectChanges();
 	counts = element.query(By.css('.counts-total'));
 	expect(counts.nativeElement.innerHTML).toBe('0');
-	
+
 
 	});
 });
